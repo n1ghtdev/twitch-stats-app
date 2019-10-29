@@ -20,7 +20,7 @@ const Index: React.FC = () => {
             value={username}
             onChange={e => setUsername(e.target.value)}
           />
-          <button type="submit">GET ID</button>
+          <button type="submit">Search for User</button>
         </label>
       </form>
     </>
